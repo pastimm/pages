@@ -339,7 +339,7 @@
     {
       "packageName": "next-app",
       "projectFolder": "templates/next-app"
-    },
+    }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
