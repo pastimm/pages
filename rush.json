@@ -42,7 +42,7 @@
    * LTS schedule: https://nodejs.org/en/about/releases/
    * LTS versions: https://nodejs.org/en/download/releases/
    */
-  "nodeSupportedVersionRange": ">=24.11.1 <25.0.0",
+  "nodeSupportedVersionRange": ">=20.0.0 <25.0.0",
 
   /**
    * If the version check above fails, Rush will display a message showing the current
@@ -336,6 +336,10 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "next-app",
+      "projectFolder": "templates/next-app"
+    },
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
